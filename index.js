@@ -33,7 +33,7 @@ drivers.slice(0,1);
 
 function removeFirstDriver(n) {
 
-  const newDrivers = drivers.slice
+  const newDrivers = drivers.slice(1)
   return newDrivers
 }
 
